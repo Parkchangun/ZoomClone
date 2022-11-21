@@ -35,9 +35,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", "npm:7.1.20"],\
             ["@types/babel__preset-env", "npm:7.9.2"],\
             ["@types/express", "npm:4.17.14"],\
+            ["@types/ws", "npm:8.5.3"],\
             ["express", "npm:4.18.2"],\
             ["nodemon", "npm:2.0.20"],\
-            ["pug", "npm:3.0.2"]\
+            ["pug", "npm:3.0.2"],\
+            ["ws", "virtual:cc134af82a0ddd2f65bbb96c216f43bc68d5b9962dbfa9f9fcfce30cb632363a96156b511e46518e2c21561e0fc05fd983f593a82cc2335a7abe995bdbafa5f7#npm:8.11.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -2530,6 +2532,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/serve-static", "npm:1.15.0"],\
             ["@types/mime", "npm:3.0.1"],\
+            ["@types/node", "npm:18.11.9"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/ws", [\
+        ["npm:8.5.3", {\
+          "packageLocation": "./.yarn/cache/@types-ws-npm-8.5.3-ae52c483f1-0ce46f850d.zip/node_modules/@types/ws/",\
+          "packageDependencies": [\
+            ["@types/ws", "npm:8.5.3"],\
             ["@types/node", "npm:18.11.9"]\
           ],\
           "linkType": "HARD"\
@@ -5752,6 +5764,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["ws", [\
+        ["npm:8.11.0", {\
+          "packageLocation": "./.yarn/cache/ws-npm-8.11.0-ab72116a01-316b33aba3.zip/node_modules/ws/",\
+          "packageDependencies": [\
+            ["ws", "npm:8.11.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:cc134af82a0ddd2f65bbb96c216f43bc68d5b9962dbfa9f9fcfce30cb632363a96156b511e46518e2c21561e0fc05fd983f593a82cc2335a7abe995bdbafa5f7#npm:8.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-45342b83a8/0/cache/ws-npm-8.11.0-ab72116a01-316b33aba3.zip/node_modules/ws/",\
+          "packageDependencies": [\
+            ["ws", "virtual:cc134af82a0ddd2f65bbb96c216f43bc68d5b9962dbfa9f9fcfce30cb632363a96156b511e46518e2c21561e0fc05fd983f593a82cc2335a7abe995bdbafa5f7#npm:8.11.0"],\
+            ["@types/bufferutil", null],\
+            ["@types/utf-8-validate", null],\
+            ["bufferutil", null],\
+            ["utf-8-validate", null]\
+          ],\
+          "packagePeers": [\
+            "@types/bufferutil",\
+            "@types/utf-8-validate",\
+            "bufferutil",\
+            "utf-8-validate"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["yallist", [\
         ["npm:4.0.0", {\
           "packageLocation": "./.yarn/cache/yallist-npm-4.0.0-b493d9e907-343617202a.zip/node_modules/yallist/",\
@@ -5773,9 +5811,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", "npm:7.1.20"],\
             ["@types/babel__preset-env", "npm:7.9.2"],\
             ["@types/express", "npm:4.17.14"],\
+            ["@types/ws", "npm:8.5.3"],\
             ["express", "npm:4.18.2"],\
             ["nodemon", "npm:2.0.20"],\
-            ["pug", "npm:3.0.2"]\
+            ["pug", "npm:3.0.2"],\
+            ["ws", "virtual:cc134af82a0ddd2f65bbb96c216f43bc68d5b9962dbfa9f9fcfce30cb632363a96156b511e46518e2c21561e0fc05fd983f593a82cc2335a7abe995bdbafa5f7#npm:8.11.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
