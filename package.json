@@ -1,0 +1,16 @@
+{
+  "name": "ZoomClone",
+  "version": "1.0.0",
+  "description": "Zoom Clone using WebRTC and WebSocket",
+  "repository": "https://github.com/Parkchangun/ZoomClone.git",
+  "author": "changeonPark <qkrcksrjs@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.3.0",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@types/babel__core": "^7",
+    "nodemon": "^2.0.20"
+  }
+}
