@@ -7,7 +7,6 @@ const app = express();
 app.set("view engine", "pug");
 app.set("views", __dirname + "/views");
 app.use("/public", express.static(__dirname + "/public"));
-//dfdfdf
 app.get("/", (req, res) => res.render("home"));
 app.get("/landing", (req, res) => res.render("landing"));
 // catch all
